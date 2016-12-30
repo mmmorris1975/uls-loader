@@ -1,0 +1,38 @@
+Home Lat/Lon
+41.732N 91.871W
+41* 43' 53.8"  91* 52' 15.6"
+
+min/max coords of 25 mi radius circle around home point coords
+-92.35501812064149
+-91.38698187935847 (-.9681)
+41.37057332505009
+42.09342667494991  (+.7229)
+
+we could approximate this by saying a box centered on home with a radius of .423
+(average the diff b/t E&W, N&S coords, then half to get radius)
+where coord <@ circle(point '(41.732, -91.871)', 0.432)
+
+postgres calculates a box w/i a circle using it's built-in geom functions such that
+a circle of radius 1 has box corners (upper-right, lower-left) of:
+=> select box(circle(point '(0,0)', 1.0));
+                                      box                                      
+-------------------------------------------------------------------------------
+ (0.707106781186547,0.707106781186547),(-0.707106781186547,-0.707106781186547)
+(1 row)
+
+Freq range of scanner
+25.0 - 1300.0 MHz
+
+
+
+Here's the query (its pretty quick, indexes must be in the right places):
+select distinct call_sign, entity_name, radio_svc_code, array_agg(distinct freq_assigned)
+  from (active_en join active_lo using (call_sign)) join active_fr using (call_sign)
+  where coord <@ circle(point '(41.732, -91.871)', 0.432) and freq_assigned between 25.0 and 1300.0
+  group by call_sign, entity_name, radio_svc_code order by entity_name;
+
+Limit by trunked systems:
+ and radio_svc_code in (select code from radio_svc_codes where txt ilike '%trunk%')
+
+Limit by conventional, non-broadcast, non-data systems:
+ and radio_svc_code not in (select code from radio_svc_codes where txt ilike '%trunk%' or txt ilike '%data%' or txt ilike '%paging%' or txt ilike '%locat%' or txt ilike '%broadcast%' or txt ilike '%aural%')

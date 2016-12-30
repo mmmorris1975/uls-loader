@@ -1,0 +1,261 @@
+SOURCE: http://wireless.fcc.gov/uls/data/documentation/pa_codes24.txt (search for 'Station Code')
+
+	AOX	Operational Fixed
+	APC	ALASKA PUBLIC
+	APX	ALASKA PRIVATE
+	APX2	ALASKA PRIVATE (TEMPORARY)
+	AX	AERONAUTICAL FIXED
+	AX1	AERONAUTICAL FIXED (MOBILE)
+	AX2	AERONAUTICAL FIXED (TEMPORARY)
+	DGP	DIFFERENTIAL GPS
+	ELT	ELT TEST
+	ELT1	ELT TEST (MOBILE)
+	FA	AERONAUTICAL ENROUTE
+	FA1	AERONAUTICAL ENROUTE (MOBILE)
+	FA2	AERONAUTICAL ENROUTE (TEMPORARY)
+	FAA	AERONAUTICAL ADVISORY (UNICOM)
+	FAA1	AERONAUTICAL ADVISORY (UNICOM) (MOBILE)
+	FAA2	AERONAUTICAL ADVISORY (UNICOM) (TEMPORARY)
+	FAB	AUTOMATIC WEATHER OBSERVATION
+	FAC	AIRPORT CONTROL TOWER
+	FAS	AVIATION SUPPORT INSTRUCTIONAL
+	FAS1	AVIATION SUPPORT INSTRUCTIONAL (MOBILE)
+	FAT	FLIGHT TEST
+	FAT1	FLIGHT TEST (MOBILE)
+	FAT3	FLIGHT TEST (ITINERANT)
+	FB	Base
+	FB2	Mobile Relay
+	FB2A	Mobile Relay - Airport Terminal Use
+	FB2C	Mobile Relay - Interconnect
+	FB2I	Mobile Relay - Itinerant
+	FB2J	Mobil Relay - Temporary Interconnect
+	FB2K	Mobile Relay - Stand-by Interconnect
+	FB2L	Mobile Relay - Itinerant Interconnect
+	FB2S	Mobil Relay - Stand-by
+	FB2T	Mobile Relay - Temporary
+	FB4	Community Repeater
+	FB4A	Community Repeater - Airport Terminal Use
+	FB4C	Community Repeater - Interconnect
+	FB4I	Community Repeater - Itinerant
+	FB4J	Community Repeater - Temporary Interconnect
+	FB4K	Community Repeater - Stand-by Interconnect
+	FB4L	Community Repeater - Itinerant Interconnect
+	FB4S	Community Repeater - Stand-by
+	FB4T	Community Repeater - Temporary
+	FB6	Private Carrier (profit)
+	FB6A	Private Carrier (profit) - Airport Terminal Use
+	FB6C	Private Carrier (profit) - Interconnect
+	FB6I	Private Carrier (profit) - Itinerant
+	FB6J	Private Carrier (profit) - Temporary Interconnect
+	FB6K	Private Carrier (profit) - Stand-by Interconnect
+	FB6L	Private Carrier (profit) - Itinerant Interconnect
+	FB6S	Private Carrier (profit) - Stand-by
+	FB6T	Private Carrier (profit) - Temporary
+	FB7	Private Carrier (non-profit)
+	FB7A	Private Carrier (non-profit) - Airport Terminal Use
+	FB7C	Private Carrier (non-profit) - Interconnect
+	FB7I	Private Carrier (non-profit) - Itinerant
+	FB7J	Private Carrier (non-profit) - Temporary Interconnect
+	FB7K	Private Carrier (non-profit) - Stand-by Interconnect
+	FB7L	Private Carrier (non-profit) - Itinerant Interconnect
+	FB7S	Private Carrier (non-profit) - Stand-by
+	FB7T	Private Carrier (non-profit) - Temporary
+	FB8	Centralized Trunk Relay
+	FB8A	Centralized Trunk Relay - Airport Terminal Use
+	FB8C	Centralized Trunk Relay - Interconnect
+	FB8I	Centralized Trunk Relay - Itinerant
+	FB8J	Centralized Trunk Relay - Temporary Interconnect
+	FB8K	Centralized Trunk Relay - Standby Interconnect
+	FB8L	Centralized Trunk Relay - Itinerant Interconnect
+	FB8S	Centralized Trunk Relay - Standby
+	FB8T	Centralized Trunk Relay - Temporary
+	FBBS	Base
+	FBC	Base - Interconnect
+	FBCT	FBCT
+	FBGS	Ground
+	FBI	Base - Itinerant
+	FBJ	Base - Temporary Interconnect
+	FBK	Base - Stand-by Interconnect
+	FBL	Base - Itinerant Interconnect
+	FBS	Base - Stand-by
+	FBSI	Air-ground Signaling
+	FBST	Standby
+	FBT	Base - Temporary
+	FC	PUBLIC COAST
+	FC2	PUBLIC COAST(TEMPORARY)
+	FCA	MARINE SUPPORT-TESTING & TRAINING
+	FCA2	MARINE SUPPORT-TESTING & TRAINING (TEMPORARY)
+	FCL	PRIVATE COAST
+	FCL2	PRIVATE COAST (TEMPORARY)
+	FCU	MARINE UTILITY
+	FCU1	MARINE UTILITY (MOBILE)
+	FIS	Flight Information Services
+	FIS1	Flight Information Services with Hand Held/Mobile
+	FIS2	Flight Information Services for Temporary Operation
+	FLT	Auxiliary Test
+	FLTC	Auxiliary Test - Interconnect
+	FLTI	Auxiliary Test - Itinerant
+	FLTL	Auxiliary Test - Itinerant Interconnect
+	FLU	AVIATION SUPPORT SERVICE
+	FLU1	AVIATION SUPPORT SERVICE (MOBILE)
+	FMA1	AIRCRAFT FLIGHT TEST STATION
+	FX	Fixed            
+	FX0S	Operational Fixed - Stand-by
+	FX1	Control
+	FX1A	Control - Airport Terminal Use
+	FX1C	Control - Interconnect
+	FX1I	Control - Itinerant
+	FX1J	Control - Temporary Interconnect
+	FX1K	Control - Stand-by Interconnect
+	FX1L	Control - Itinerant Interconnect
+	FX1S	Control - Stand-by
+	FX1T	Control - Temporary
+	FX2	Fixed Relay
+	FX2A	Fixed Relay - Airport Terminal Use
+	FX2C	Fixed Relay - Interconnect
+	FX2I	Fixed Relay - Itinerant
+	FX2J	Fixed Relay - Temporary Interconnect
+	FX2K	Fixed Relay - Stand-by Interconnect
+	FX2L	Fixed Relay - Itinerant Interconnect
+	FX2S	Fixed Relay - Stand-by
+	FX2T	Fixed Relay - Temporary
+	FX3	Secondary Fixed (Tone Signaling)
+	FX3C	Secondary Fixed - Interconnect
+	FX3I	Secondary Fixed - Itinerant
+	FX3J	Secondary Fixed - Temporary Interconnect
+	FX3K	Secondary Fixed - Stand-by Interconnect
+	FX3L	Secondary Fixed - Itinerant Interconnect
+	FX3S	Secondary Fixed - Stand-by
+	FX3T	Secondary Fixed  - Temporary
+	FX5	Temporary Fixed
+	FXA	Fixed - Airport Terminal Use
+	FXC	Fixed - Interconnect
+	FXCO	Central Office
+	FXCT	Control
+	FXDI	Dispatch
+	FXI	Fixed - Itinerant
+	FXIO	Inter-office
+	FXJ	Fixed - Temporary Interconnect
+	FXK	Fixed - Stand-by Interconnect
+	FXL	Fixed - Itinerant Interconnect
+	FXO	Operational Fixed
+	FXOA	Fixed - Interconnect - Airport Terminal Use
+	FXOC	Operational Fixed - Interconnect
+	FXOI	Operational Fixed - Itinerant
+	FXOJ	Operational Fixed - Temporary Interconnect
+	FXOK	Operational Fixed - Stand-by Interconnect
+	FXOL	Operational Fixed - Itinerant Interconnect
+	FXOS	Operational Fixed - Stand-by
+	FXOT	Operational Fixed - Temporary
+	FXRP	Repeater
+	FXRX	Fixed Relay
+	FXS	Fixed - Stand-by
+	FXSB	Fixed Subscriber
+	FXT	Fixed û Temporary           
+	FXTS	Auxiliary Test
+	FXV	CTS Exceeding 20'
+	FXW	CTS Meeting 20'
+	FXY	Interzone
+	FXYC	Interzone - Interconnect
+	FXZ	Zone
+	FXZC	Zone - Interconnect
+	GCO	GROUND COMMUNICATIONS OUTLET
+	LR	Radiolocation Land
+	LRC	Radiolocation Land - Interconnect
+	LRJ	Radiolocation Land - Temporary Interconnect
+	LRK	Radiolocation Land - Stand-by Interconnect
+	LRS	Radiolocation Land - Stand-by
+	LRT	Radiolocation Land - Temporary
+	M08C	Centralized Trunk Mobile - Interconnect
+	MFL	AERONAUTICAL MULTICOM
+	MFL1	AERONAUTICAL MULTICOM (MOBILE)
+	MFL2	AERONAUTICAL MULTICOM (TEMPORARY)
+	MFX	MARINE OPS FIXED
+	MFX2	MARINE OPS FIXED (TEMPORARY)
+	MLSB	Mobile Subscriber
+	MO	Mobile
+	MO3	Mobile/Vehicular Repeater
+	MO3A	Mobile/Vehicular Repeater - Airport Terminal Use
+	MO3C	Mobile/Vehicular Repeater with Interconnect
+	MO3I	Mobile/Vehicular Repeater - Itinerant
+	MO3J	Mobile/Vehicular Repeater with Temporary Interconnect
+	MO3K	Mobile/Vehicular Repeater with Stand-by Interconnect
+	MO3L	Mobile/Vehicular Repeater with Itinerant Interconnect
+	MO3S	Stand-by Mobile/Vehicular Repeater
+	MO3T	Temporary Mobile/Vehicular Repeater
+	MO5	Mobile & Temporary Fixed
+	MO6	Private Carrier Mobile Op (profit)
+	MO6A	Private Carrier Mobile Op (profit) - Airport Termi
+	MO6C	Private Carrier Mobile Op (profit) - Interconnect
+	MO6I	Private Carrier Mobile Op (profit) - Itinerant
+	MO6J	Private Carrier Mobile Operation (profit) with Tem
+	MO6K	Private Carrier Mobile Op (profit) - Stand-by
+	MO6L	Private Carrier Mobile Operation (profit) with Iti
+	MO6S	Private Carrier Mobile Op (profit) - Stand-by
+	MO6T	Temporary Private Carrier Mobile Operation (profit)
+	MO7	Private Carrier Mobile Op (non-profit)
+	MO7A	Private Carrier Mobile Op (non-profit) - Airport Ter
+	MO7C	Private Carrier Mobile Op (non-profit) - Interconn
+	MO7I	Private Carrier Mobile Op (non-profit) - Itinerant
+	MO7J	Private Carrier Mobile Operation (non-profit) with
+	MO7K	Private Carrier Mobile Op (non-profit) - Stand
+	MO7L	Private Carrier Mobile Operation (non-profit) with
+	MO7S	Private Carrier Mobile Op (non-profit) - Stand
+	MO7T	Temporary Private Carrier Mobile Operation (non-pr
+	MO8	Centralized Trunk Mobile
+	MO8A	Centralized Trunk Mobile - Airport Terminal Use
+	MO8C	Centralized Trunk Mobile - Interconnect
+	MOA	Mobile - Airport Terminal Use
+	MOC	Mobile - Interconnect
+	MOI	Mobile - Itinerant
+	MOJ	Mobile with Temporary Interconnect
+	MOK	Mobile with Stand-by Interconnect
+	MOL	Mobile with Itinerant Interconnect
+	MOS	Mobile - Stand-by
+	MOT	Temporary Mobile
+	MOU1	AERONAUTICAL UTILITY MOBILE
+	MR	Radiolocation Mobile
+	MRT	MARINE RECEIVER TEST
+	MRT2	MARINE RECEIVER TEST (TEMPORARY)
+	MSC	SHORE RADAR TEST
+	MSC2	SHORE RADAR TEST (TEMPORARY)
+	MSR	SHORE RADIONAVIGATION
+	MSR2	SHORE RADIONAVIGATION (TEMPORARY)
+	RCO	REMOTE COMMUNICATIONS OUTLET
+	RLA	AERONAUTICAL MARKER BEACON
+	RLA1	AERONAUTICAL MARKER BEACON (MOBILE)
+	RLA2	AERONAUTICAL MARKER BEACON (TEMPORARY)
+	RLB	AERONAUTICAL RADIO BEACON
+	RLB1	AERONAUTICAL RADIO BEACON (MOBILE)
+	RLB2	AERONAUTICAL RADIO BEACON (TEMPORARY)
+	RLC	SHORE RADIOLOCATION TEST
+	RLC2	SHORE RADIOLOCATION TEST (TEMPORARY)
+	RLD	RADAR/RADAR TEST
+	RLD1	RADAR/RADAR TEST (MOBILE)
+	RLD2	RADAR/RADAR TEST (TEMPORARY)
+	RLG	GLIDE PATH (SLOPE)
+	RLG1	GLIDE PATH (SLOPE) (MOBILE)
+	RLG2	GLIDE PATH (SLOPE) (TEMPORARY)
+	RLL	LOCALIZER
+	RLL1	LOCALIZER (MOBILE)
+	RLL2	LOCALIZER (TEMPORARY)
+	RLO	OMNIDIRECTIONAL RADIO RANGE
+	RLO1	OMNIDIRECTIONAL RADIO RANGE (MOBILE)
+	RLO2	OMNIDIRECTIONAL RADIO RANGE (TEMPORARY)
+	RLR	SHORE RADIOLOCATION/RACON
+	RLR2	SHORE RADIOLOCATION/RACON (TEMPORARY)
+	RLT	RADIONAVIGATION LAND TEST
+	RLT1	RADIONAVIGATION LAND TEST (MOBILE)
+	RLT2	Radionavigation Land Test - Temporary
+	RNV	RADIONAVIGATION LAND
+	RNV1	RADIONAVIGATION LAND (MOBILE)
+	RNV2	RADIONAVIGATION LAND (TEMPORARY)
+	RPC	RAMP CONTROL
+	SAR	SEARCH AND RESCUE	
+	SAR1	SEARCH AND RESCUE (MOBILE)	
+	UAT	Universal Access Transceiver service - Fixed	
+	UAT1	Universal Access Transceiver service - Mobile	
+	UAT2	Universal Access Transceiver service - Temp Fixed	
+	WDX	Radiolocation Weather Radar	
+	WDXS	Radiolocation Weather Radar - Standby	
+	WDXT	Radiolocation Weather Radar - Temporary	

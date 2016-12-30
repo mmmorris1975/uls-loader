@@ -1,0 +1,127 @@
+SOURCE: http://wireless2.fcc.gov/helpfiles/licenseSearch/helpCodes.html
+Convert to form suitable for loading via: `tail -n +4 radio_svc_codes | cut -c 1-2,6- --output-delimiter '|' | psql uls_template -c "copy radio_svc_codes from stdin with delimiter '|'"`
+
+AA—Aviation Auxiliary Group
+AB—Aural Microwave Booster
+AC—Aircraft
+AD—AWS-4
+AF—Aeronautical and Fixed
+AI—Aural Intercity Relay
+AR—Aviation Radionavigation
+AS—Aural Studio Transmitter Link
+AW—Advanced Wireless Service (Part 27).
+BA—1390-1392 MHz Band, Market Area
+BB—1392-1395 and 1432-1435 MHz Bands, Market Area
+BC—1670-1675 MHz Band, Market Area
+BR—Broadband Radio Service
+CA—Commercial Air-ground Radiotelephone
+CB—BETRS
+CD—Paging and Radiotelephone
+CE—Digital Electronic Message Service—Common Carrier
+CF—Common Carrier Fixed Point to Point Microwave
+CG—General Aviation Air-ground Radiotelephone
+CJ—Commercial Aviation Air-Ground Radiotelephone (800 MHz band
+CL—Cellular
+CM—Commercial Operator
+CN—PCS Narrowband
+CO—Offshore Radiotelephone
+CP—Part 22 VHF/UHF Paging [excluding 931 MHZ], Auctioned
+CR—Rural Radiotelephone
+CT—Local Television Transmission
+CW—PCS Broadband
+CY—1910-1915/1990-1995 MHz Bands, Market Area
+CZ—Part 22 931 MHz Paging
+DV—Multichannel Video Distribution AND Data Service
+ED—Educational Broadband Service
+CZ—Paging and Radiotelephone, Auctioned
+GB—Business, 806-821/851-866 MHz, Conventional
+GC—929-930 MHz Paging Systems, Auctioned
+GE—Public Safety/Special Emergency and Public Safety, National Plan
+GF—Public Safety Ntl Plan, 821-824/866-869 MHz, Conv.
+GI—Other Indust/Land Transp, 896-901/935-940 MHz, Conv.
+GJ—Business and Industrial/Land Transp, 809-824/854-869 MHz, Conv.
+GL—900 MHz Conventional SMR (SMR, Site-Specific)
+GM—800 MHz Conventional SMR (SMR, Site-Specific)
+GO—Other Indust/Land Transp, 806-821/851-866 MHz, Conv.
+GP—Public Safety/Spec Emerg, 806-821/851-866 MHz, Conv.
+GR—SMR, 896-901/935-940 MHz, Conventional
+GS—Private Carrier Paging, 929-930 MHz
+GU—Business, 896-901/935-940 MHz, Conventional
+GX—SMR, 806-821/851-866 MHz, Conventional
+HA—Amateur
+HV—Vanity
+IG—Industrial/Business Pool, Conventional
+IK—Industrial/Business Pool—Commercial, Conventional
+IQ—Intelligent Transportation Service (Public Safety)
+LD—Local Multipoint Distribution Service
+LN—902-928 MHz Location Narrowband (Non-Multilateration)
+LP—Broadcast Auxiliary Low Power
+LS—Location and Monitoring Service, Multilateration (LMS)
+LV—Low Power Wireless Assist Video Devices
+LW—902-928 MHz Location Wideband (Grandfathered AVM)
+MA—Marine Auxiliary Group
+MC—Coastal Group
+MG—Microwave Industrial/Business Pool
+MK—Alaska Group
+MM—Millimeter Wave 70/80/90 GHz
+MR—Marine Radiolocation Land
+MS—Multiple Address Service, Auctioned
+MW—Microwave Public Safety Pool
+NC—Nationwide Commercial 5 Channel, 220 MHz
+NN—3650 – 3700 MHz
+PA—Public Safety 4940-4990 MHz Band
+PC—Public Coast Stations, Auctioned
+PE—Digital Electronic Message Service—Private
+PW—Public Safety Pool, Conventional
+QA—220-222 MHz Band, Auctioned
+QD—Non-Nationwide Data, 220 MHz
+QM—Non-Nationwide Public Safety/Mutual Aid, 220 MHz
+QO—Non-Nationwide Other, 220 MHz
+QQ—Intelligent Transportation Service (Non-Public Safety)
+QT—Non-Nationwide 5 Channel Trunked, 220 MHz
+RP—Broadcast Auxiliary Remote Pickup
+RR—Restricted Operator
+RS—Land Mobile Radiolocation
+SA—Ship Recreational or Voluntarily Equipped
+SB—Ship Compulsory Equipped
+SE—Ship Exemption
+SG—Conventional Public Safety 700MHz
+SL—Public Safety 700 MHz Band—State License
+SP—700 MHz Public Safety Broadband Nationwide License
+SY—Trunked Public Safety 700MHz
+TB—TV Microwave Booster
+TI—TV Intercity Relay
+TN—39 GHz, Auctioned
+TP—TV Pickup
+TS—TV Studio Transmitter Link
+TT—TV Translator Relay
+TZ—24 GHz Service
+WA—Microwave Aviation
+WM—Microwave Marine
+WP—700 MHz Upper Band (Block D)
+WR—Microwave Radiolocation
+WS—Wireless Communications Service
+WU—700 MHz Upper Band (Block C)
+WX—700 MHz Bands
+WY—700 MHz Lower Band (Blocks A, B, E)
+WZ—700 MHz Lower Band (Blocks C,D)
+YB—Business, 806-821/851-866 MHz, Trunked
+YC—SMR, 806-821/851-866 MHz, Auctioned
+YD—SMR, 896-901/935-940 MHz, Auctioned
+YE—Public Safety/Special Emergency and Public Safety, National Plan
+YF—Public Safety Ntl Plan, 821-824/866-869 MHz, Trunked
+YG—Industrial/Business Pool, Trunked
+YH—SMR, 806-821/851-866 MHz, Auctioned (Rebanded YC license)
+YI—Other Indust/Land Transp. 896-901/935-940 MHz, Trunked
+YJ—Business and Industrial/Land Transp, 809-824/854-869, Trunked
+YK—Industrial/Business Pool—Commercial, Trunked
+YL—900 MHz Trunked SMR (SMR, Site-Specific)
+YM—800 MHz Trunked SMR (SMR, Site-Specific)
+YO—Other Indust/Land Transp. 806-821/851-866 MHz, Trunked
+YP—Public Safety/Spec Emerg, 806-821/851-866 MHz, Trunked
+YS—SMR, 896-901/935-940 MHz, Trunked
+YU—Business, 896-901/935-940 MHz, Trunked
+YW—Public Safety Pool, Trunked
+YX—SMR, 806-821/851-866 MHz, Trunked
+ZA—General Mobile Radio (GMRS)
+ZV—218-219 MHz Service

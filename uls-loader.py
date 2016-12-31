@@ -52,6 +52,12 @@ if __name__ == '__main__':
   #
   # It takes about 20 minutes to create our indexes, and another 5-10 to do the vacuum, neither
   # are avoidable, and we're constrained by the resources of the system we run on.
+  #
+  # After further review, the 'COPY FROM' idea won't work, since we're letting the hash data
+  # determine our insert fields, and also doing some processing of the data in the INSERT
+  # statements (upper-casing and coalescing values). Seeing as how we'd have to re-order the
+  # data, and do some of the pre-processing ourselves, we probably chew up a fair bit of any
+  # speed gains we'd get from 'COPY FROM'
 
   opts = parse_cmdline()
   configure_logging(opts.loglevel)

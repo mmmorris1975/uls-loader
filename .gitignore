@@ -90,3 +90,4 @@ ENV/
 
 # Downloaded data files
 *.zip
+*.log.*

@@ -84,6 +84,7 @@ def parse_lo(zip_file):
   for row in get_rows(zip_file, file_name, fields):
     try:
       # assume that if lat/lon degree fields are empty then there's nothing of value in the record to process
+      # this assumption may preclude itenerant or mobile-only systems which don't operate from a fixed location
       lat_deg = row.get('lat_deg')
       lon_deg = row.get('lon_deg')
       sys_id  = row.get('sys_id', False)

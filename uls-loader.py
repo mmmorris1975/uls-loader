@@ -101,6 +101,7 @@ if __name__ == '__main__':
   p.join()
 
   db.add_indexes()
+  db.refresh_materialized_views()
   db.vacuum()
   logging.info("Finished loading all ULS data")
 

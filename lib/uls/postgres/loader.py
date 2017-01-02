@@ -80,5 +80,14 @@ class Loader():
     for c in idx_cmds:
       self.executecmd(c)
 
+  def refresh_materialized_views(self):
+    cmds = (
+      "REFRESH MATERIALIZED VIEW active_rsc",
+      "REFRESH MATERIALIZED VIEW state_counties"
+    )
+
+    for c in cmds:
+      self.executecmd(c)
+
   def vacuum(self):
     self.executecmd('VACUUM ANALYZE')
